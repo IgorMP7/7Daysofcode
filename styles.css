@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #8E2424;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #667085;
+    --cor-quarternaria: #3A404E;
+    --cor-quinaria: #101828;
+    --cor-senaria: #d3aeae21;
+    --cor-septenaria: #EAECF0;
+    --cor-octonaria: #C3191908;
+    --cor-nonaria: #D0D5DD;
+    --cor-denaria: #98A2B3;
+    --fonte-primaria: "Inter";
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.cabecalho__navegacao__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+    margin-left: 3em;
+}
+
+
+.cabecalho__navegacao__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-quarternaria);
+}
+
+.lista__navegacao {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+    margin-right: 21em;
+}
+
+.cabecalho__navegacao__links {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+}
+
+
+
+.cabecalho__navegacao__usuario {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 5em;
+}
+
+.navegacao__usuario1 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+}
+
+.navegacao__usuario2 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+.secao__cabecalho {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.secao__cabecalho__span {
+    color: var(--cor-primaria);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5em;
+}
+
+.secao__cabecalho__titulo {
+    color: var(--cor-quinaria);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.secao__cabecalho__texto {
+    color: var(--cor-terciaria);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.secao__numeros {
+    display: flex;
+    margin: 5em 5em 0 5em;
+    gap: 25px;
+}
+
+.secao__numeros__titulo {
+    font-size: 60px;
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.secao__numeros__span {
+    font-size: 18px;
+    color: var(--cor-quinaria);
+    font-weight: 500;
+}
+
+.secao__numeros__texto {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+    margin-top: 1em;
+}
+
+.secao__vagas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.secao__span {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    margin: 10em 0 1em 0;
+    background-color: var(--cor-senaria);
+    padding: 4px 12px;
+    border-radius: 16px;
+    border: 4px 12px;  
+    display: inline-block;
+    align-self: center;
+}
+
+.secao__vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-quinaria);
+    margin-bottom: 0.7em;
+}
+
+.secao__vagas__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+    margin-bottom: 3em;
+}
+
+.secao__vagas__imagem {
+    height: 400px;
+    width: 100vw;
+    margin-bottom: 4em;
+}
+
+.secao__areas {
+    display: flex;
+    margin-left: 21em;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.secao__areas__borda {
+    border: 1px solid var(--cor-septenaria);
+    border-radius: 16px;
+    padding: 1px 0 28px 0.1px;
+    margin-right: 20em;
+    margin-bottom: 2em;
+}
+
+.secao__areas__titulo1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-quinaria);
+    margin: 1em 3em 2em 0;
+    
+}
+
+.secao__areas__titulo2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-quinaria);
+    margin: 0.5em 0 2em 0;
+}
+
+
+.secao__areas__subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-quinaria);
+    margin: 2em 1.5em;
+}
+
+.secao__areas__detalhes {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+    justify-content: space-between;
+    margin: 0 0.1em 0 1.7em;
+}
+
+.secao__depoimentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--cor-octonaria);
+    margin: 4em 6em 0 6em;
+    padding: 3.5em 0 3.5em 0;
+    
+    
+}
+
+.secao__depoimentos__span {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    margin-bottom: 1em;
+}
+
+.secao__depoimentos__texto {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cor-quinaria);
+    margin-bottom: 1em;
+}
+
+.imagem__depoimentos {
+    width: 3.5em;
+    margin: 0 auto;
+}
+
+.nome {
+    margin: 1em 0 0.5em 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-quinaria);
+}
+
+.cargo {
+    color: var(--cor-terciaria);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-octonaria);
+    margin-top: 6em;
+}
+
+.rodape__titulo {
+   margin: 4em 0 4em 0;
+   font-size: 36px;
+   font-weight: 600;
+   color: var(--cor-quinaria);
+}
+
+.rodape__texto {
+    margin: -6em 0 16em 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+}
+
+.rodape__email__botao {
+    display: flex;
+    justify-content: center; 
+    gap: 16px;
+    margin: 0 4em 0 0;
+    
+}
+
+.rodape__email {
+    padding: 14px 86px 12px 16px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--cor-nonaria);
+    margin-left: 4em;
+}
+
+.rodape__email::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+}
+
+.rodape__botao {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.rodape__copyright {
+    color: var(--cor-denaria);
+    font-size: 16px;
+    font-weight: 400;
+    margin: -12em 5.1em 6em 6em;
+}
